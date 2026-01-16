@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Alyssa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <!-- KIRI -->
+        <div class="profile-card">
+            <!-- ABOUT US BUTTON -->
+            <button class="about-btn" id="aboutBtn">about us</button>
+            <img src="profile.jpeg" alt="Foto Profil" class="profile-img">
+            <h2>SOFTWARE ENGINEERING</h2>
+
+            <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- KANAN -->
+        <div class="intro">
+            <p>
+                I'm Alyssa Divaira, a 2025 graduate of Informatics Engineering from
+                UIN Sunan Gunung Djati Bandung with a strong interest in information
+                technology and data-driven problem solving.
+            </p>
+
+            <div class="buttons">
+                <button id="btnPendidikan">Pendidikan</button>
+                <button id="btnKeahlian">Keahlian</button>
+                <button id="btnPengalaman">Pengalaman</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODAL PENDIDIKAN ===== -->
+    <div class="modal" id="educationModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <img src="uin-logo.png" alt="UIN Bandung" class="edu-logo">
+
+            <h2>Universitas Islam Negeri Sunan Gunung Djati Bandung</h2>
+
+            <div class="edu-info">
+                <span class="badge">S.T., Teknik Informatika</span>
+                <span class="badge">2021 – 2025</span>
+            </div>
+
+            <div class="edu-ipk">
+                <span class="badge">IPK : 3.81</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODAL KEAHLIAN ===== -->
+    <div class="modal" id="skillModal">
+        <div class="modal-content">
+            <span class="close close-skill">&times;</span>
+
+            <div class="skill-icon">🧠</div>
+
+            <ul class="skill-list">
+                <li>Analytics</li>
+                <li>Problem Solving</li>
+                <li>Analytical Skills</li>
+                <li>Machine Learning</li>
+                <li>Natural Language Processing (NLP)</li>
+                <li>Text Classification</li>
+                <li>Support Vector Machine (SVM)</li>
+                <li>Web Scraping</li>
+                <li>Data Analysis</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== MODAL PENGALAMAN ===== -->
+    <div class="modal" id="experienceModal">
+        <div class="modal-content experience-content">
+            <span class="close close-experience">&times;</span>
+
+            <div class="experience-header">
+                <h3>UI/UX Designer</h3>
+                <i class="icon">👤</i>
+            </div>
+
+            <p class="institution">
+                <u>UIN Sunan Gunung Djati Bandung · Magang</u>
+            </p>
+
+            <p class="duration">
+                Nov 2024 hingga Jan 2025 · 3 bln
+            </p>
+
+            <p class="major">
+                Jurusan Teknik Informatika · Di lokasi
+            </p>
+
+            <ul class="experience-list">
+                <li>Melakukan analisis kebutuhan mahasiswa terhadap aplikasi pembelajaran.</li>
+                <li>Merancang UI/UX aplikasi pembelajaran Jurusan Teknik Informatika menggunakan Figma.</li>
+                <li>Mengimplementasikan desain antarmuka ke dalam kode menggunakan React.</li>
+                <li>Mengoperasikan Python dalam pengembangan antarmuka aplikasi.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== MODAL ABOUT US ===== -->
+<div class="modal" id="aboutModal">
+    <div class="modal-content about-content">
+        <span class="close close-about">&times;</span>
+
+        <div class="about-icon">
+            👤
+        </div>
+
+        <div class="about-info">
+            <p><strong>Nama Lengkap</strong> : Alyssa Divaira</p>
+            <p><strong>TTL</strong> : 26 Januari 2003</p>
+            <p><strong>Asal</strong> : Sumedang</p>
+            <p><strong>Jenis Kelamin</strong> : Perempuan</p>
+            <p><strong>Nomor Whatsapp</strong> : 08132020630</p>
+            <p><strong>Alamat Email</strong> : alyssadiva26@gmail.com</p>
+        </div>
+    </div>
+</div>
+
+    <!-- ===== JS FILE ===== -->
+    <script src="app.js"></script>
+
+</body>
+</html>
